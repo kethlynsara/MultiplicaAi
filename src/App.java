@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        int number = 7;
+        Scanner n = new Scanner(System.in);
+
+        System.out.println("Digite um número:");
+        int number = n.nextInt();
+
         System.out.println("Tabela de multiplicação de " + number);
 
         for (int i = 1; i <= 10; i++) {
